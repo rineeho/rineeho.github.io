@@ -20,8 +20,21 @@ Few-shot Learning은 general 모델을 학습하는 것을 주로 목표로 한�
 
 이 논문에서는 전통방식인 Naive-Bayes Nearest-Neighbor(NBNN)이라는 방식 차용해서 few-shot learning에 활용될 수 있도록 새로운 방법을 제안한다. 
 
-3. The Proposed Method 
+3.The Proposed Method
+
 3.1 Problem Formulation 
+
+$S$(support set)는 $C$개의 다른 이미지 클래스를 포함하고, 각 클래스마다 $K$개의 샘플을 포함하고 있다. query set $Q$가 주어지면, few-shot learning은 $Q$에 있는 unlabeled sample들을 $S$에 따라 분류되도록 학습한다. 이러한 방식을 
+C-way K-shot classification이라 한다. 
+
+결국 few-shot이라는건 support set $S$에 샘플 수가 적기 때문에 $Q$에 있는 sample들이 잘 분류되도록 모델을 학습하는게 어려운 일이다. 일반적으로, 다른 연구들에서는 $Q$에 대한 분류성능을 높이기 위해 auxiliary set $A$를 두고 knowledge를 transfer하는 방식을 사용한다. 
+이 때, $A$에는 굉장히 많은 클래스와 label이 있는 sample들이 포함되어 있으며, support set $S$가 가진 class들은 $A$는 존재하지 않는다. 
+
+episodic training mechanism은 $A$로부터 knowledge를 가지고 오는데 있어 효과적인 방법으로 소개된다. 즉, $A$를 이용하는데 마치 데이터가 많이 없는것과 같은 상황을 만들어 few-shot learning model을 학습하는 것이다. 
+
+episode에는 support set $A_S$와 query set $A_Q$가 set $A$로부터 random으로 sampling 된다. $A_S$에는 $C$ 개의 class에 대해 각각 $K$개의 sample이 포함되어 있다. 
+
+test 단계에서는 support set $S$를 이용하고, 학습이 완료된 모델은 $Q$에 있는 이미지를 분류할 수 있게 된다. 
 
 
 
