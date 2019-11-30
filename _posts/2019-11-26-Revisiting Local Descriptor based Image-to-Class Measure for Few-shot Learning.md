@@ -37,10 +37,3 @@ episode에는 support set $A_S$와 query set $A_Q$가 set $A$로부터 random으
 test 단계에서는 support set $S$를 이용하고, 학습이 완료된 모델은 $Q$에 있는 이미지를 분류할 수 있게 된다. 
 
 
-
-This formula $f(x) = x^2$ is an example.
-$$
-\lim_{x\to 0}{\frac{e^x-1}{2x}}
-\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
-\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
-$$
