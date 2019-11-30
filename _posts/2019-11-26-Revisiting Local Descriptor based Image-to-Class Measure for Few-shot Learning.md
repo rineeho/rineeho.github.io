@@ -1,3 +1,13 @@
+---
+title: "Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning"
+tags:
+  - Blog
+  - MathJax
+  - Jekyll
+  - LaTeX
+use_math: true
+---
+
 #### 미완성 포스팅으로 아직 틀린 부분이 많습니다.
 
 #### Few-Shot Learning
@@ -13,4 +23,8 @@ Few-shot Learning은 general 모델을 학습하는 것을 주로 목표로 한�
 그치만, few-shot learning이라는 고유한 특성을 고려해보면 (데이터가 몇 장 없다는), 이러한 방식 (common practice)가 더이상 이전의 분류 문제처럼 잘 먹히지 않을 수 있다. 
 
 이 논문에서는 전통방식인 Naive-Bayes Nearest-Neighbor(NBNN)이라는 방식 차용해서 few-shot learning에 활용될 수 있도록 새로운 방법을 제안한다. 
+
+3. The Proposed Method 
+3.1 Problem Formulation 
+
 
