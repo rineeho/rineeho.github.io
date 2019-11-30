@@ -1,10 +1,6 @@
 ---
 title: "Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning"
-tags:
-  - Blog
-  - MathJax
-  - Jekyll
-  - LaTeX
+
 use_math: true
 ---
 
@@ -28,3 +24,10 @@ Few-shot Learning은 general 모델을 학습하는 것을 주로 목표로 한�
 3.1 Problem Formulation 
 
 
+
+This formula $f(x) = x^2$ is an example.
+$$
+\lim_{x\to 0}{\frac{e^x-1}{2x}}
+\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
+$$
