@@ -36,4 +36,24 @@ episode에는 support set $A_S$와 query set $A_Q$가 set $A$로부터 random으
 
 test 단계에서는 support set $S$를 이용하고, 학습이 완료된 모델은 $Q$에 있는 이미지를 분류할 수 있게 된다. 
 
-![figure1](_assets/images/2019-11-26-1.jpg)
+![figure1](../_assets/images/2019-11-26-1.jpg)
+
+3.2 Motivation from the NBNN Approach
+
+본 논문은 [1] 의 Naive-Bayes Nearest-Neighbor 방법에서 아이디어를 얻었다. 
+NBNN 에서 두 개의 key observation을 소개 하였는데, 본 연구에서는 이 observation이 few-shot learning에도 잘 적용됨을 보여주고자 하였다. 
+
+A. Discriminative information의 손실   
+bag-of-feature model같은 경우, local invariant feature들은 이미지의 word로 표현되기 위해서 quantize 된다.그 후 이러한 word들로 이미지를 표현하는 distribution을 만들게 된다. 예를 들어, pixel들의 sum과 pooling 과정을 통해 histogram을 만든다. 참고: https://darkpgmr.tistory.com/125 
+
+[1]에서는 이 때, quantization error 때문에 이러한 image-level representation이 discriminative information을 잃어버릴 수 있다는 점을 언급하였다. 만약 학습 데이터가 많으면, 이러한 loss가 학습 할 때 어느 정도는 복구 될 수 있으며, 성능이 높게 나올수 있다. 그렇지만, few-shot과 같이 학습 데이터가 불충분하다면, 이러한 loss가 학습단계에서 복구되지 않을 수 있고, model의 성능 또한 낮을 것이다. 보통 deep-learning 기반의 모델에서는 주로 final layer에서 global pooling 또는 fully-connected layer를 사용해서 image-level을 위한 feature로 만들어 버리는데, 이 때에도 information loss가 발생 할 수 밖에 없다. 
+
+
+B. 
+
+
+
+
+
+
+[1] 
