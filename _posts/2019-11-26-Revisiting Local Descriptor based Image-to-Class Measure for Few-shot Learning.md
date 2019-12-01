@@ -49,11 +49,19 @@ bag-of-feature model같은 경우, local invariant feature들은 이미지의 wo
 [1]에서는 이 때, quantization error 때문에 이러한 image-level representation이 discriminative information을 잃어버릴 수 있다는 점을 언급하였다. 만약 학습 데이터가 많으면, 이러한 loss가 학습 할 때 어느 정도는 복구 될 수 있으며, 성능이 높게 나올수 있다. 그렇지만, few-shot과 같이 학습 데이터가 불충분하다면, 이러한 loss가 학습단계에서 복구되지 않을 수 있고, model의 성능 또한 낮을 것이다. 보통 deep-learning 기반의 모델에서는 주로 final layer에서 global pooling 또는 fully-connected layer를 사용해서 image-level을 위한 feature로 만들어 버리는데, 이 때에도 information loss가 발생 할 수 밖에 없다. 
 
 
-B. 
+B. local invariant feature의 한계 
+두 개의 이미지가 얼마나 유사한지 비교한다고 가정해보자. 이 때, image level representation 대신 local invariant feature를 사용하면 좋은 결과가 나오지 못한다. 데이터가 많이 없기 때문에 intra-class variation이 크고, model 자체가 generalize 되기 어렵기 때문이다. 
+그렇기 때문에, image-to-class measure가 사용 되어야 한다. 
+
+즉, 위 두가지로 이 논문에서 이야기하고 싶은것은 local invariant feature를 training sample과 test sample 대상으로 직접 비교하는게 아니라, training sample들을 가지고 class를 대표할 수 있는 어떤 새로운 measure를 만들자고 말하고 있다. 
 
 
+3.3 The Proposed DN4 Framework
 
-
+DN4 : Deep Nearest Neighbor Neural Network
+DN4 model은 2 개의 module로 구성되어 있다. 
+(1) Deep embedding module $\Psi$ 
+(2) Image-to-class measure module $\Phi$
 
 
 [1] 
