@@ -27,7 +27,7 @@ embedding function $f_\phi:R^D \rightarrow R^M$ 을 통해 각 class별로 그 c
 class $C$에 대한 prototype은 다음과 같이 표현된다. 
 
 
-$c_{k}=\frac{1}{\left|S_{k}\right|}\sum_{(x_{i},y_{i}) \in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }$
+$$c_{k}=\frac{1}{\left|S_{k}\right|}\sum_{(x_{i},y_{i}) \in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }$$
 
 
 \begin{align}
