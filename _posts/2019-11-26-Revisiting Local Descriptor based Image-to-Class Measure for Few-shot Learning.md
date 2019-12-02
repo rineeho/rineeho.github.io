@@ -61,6 +61,8 @@ B. local invariant feature의 한계
 DN4 : Deep Nearest Neighbor Neural Network
 DN4 model은 2 개의 module로 구성되어 있다. 
 (1) Deep embedding module $\Psi$ 
+
+
 (2) Image-to-class measure module $\Phi$
 
 
