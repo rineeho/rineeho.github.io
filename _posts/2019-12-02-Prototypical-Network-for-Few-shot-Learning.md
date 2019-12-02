@@ -1,6 +1,9 @@
+---
+title: "Prototypical Networks for Few-shot Leanrning"
 
+use_math: true
+---
 
-##Prototypical Networks for Few-shot Leanrning 
 
 #Notation
 
@@ -9,3 +12,5 @@ $x_i\in R^D$ : D-dimension feature vector
 $y_i\in{1,...,K}$ : corresponding label
 $S_k$: class label이 K인 example set
 
+
+#Model 
