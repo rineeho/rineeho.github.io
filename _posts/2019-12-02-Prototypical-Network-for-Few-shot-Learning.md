@@ -11,7 +11,7 @@ $S = {(x_1,y_1),...,(X_N, y_n)}$
 
 $x_i\in R^D$ : D-dimension feature vector 
 
-$y_i\in{1,...,K}$ : corresponding label
+$y_i \in {1,...,K}$ : corresponding label
 
 $S_k$: class label이 K인 example set
 
@@ -24,8 +24,10 @@ embedding function $f_\phi:R^D \rightarrow R^M$ 을 통해 각 class별로 그 c
 
 class $C$에 대한 prototype은 다음과 같이 표현된다. 
 
+\begin{equation}
+$c_{ k }=\frac { 1 }{ \left| S_{ k } \right|  } \sum _{ (x_{ i },y_{ i })\in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }
+\end{equation}
 
-$c_{ k }=\frac { 1 }{ \left| S_{ k } \right|  } \sum _{ (x_{ i },y_{ i })\in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }$
-
-
-$p_{ \phi  }(y=k|x)\quad =\quad \frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }$
+\begin{equation}
+p_{ \phi  }(y=k|x)\quad =\quad \frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }
+\end{equation}
