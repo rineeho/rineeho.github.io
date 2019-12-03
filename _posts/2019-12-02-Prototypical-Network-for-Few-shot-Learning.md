@@ -27,6 +27,8 @@ class $C$에 대한 prototype은 다음과 같이 표현된다.
 
 $$c_{k}=\frac{1}{\left|S_{k}\right|}\sum_{(x_{i},y_{i}) \in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }$$
 
+![figure 1](https://github.com/rineeho/rineeho.github.io/blob/master/_assets/images/figure1.jpg?raw=true){:.aligncenter}
+
 $$p_{ \phi  }(y=k|x)=\frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }$$
 
 
