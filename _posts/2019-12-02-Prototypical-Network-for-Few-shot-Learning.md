@@ -6,7 +6,7 @@ use_math: true
 
 
 ### Notation
-$S=\{ x+y \}$
+$S=\lbrace x+y\rbrace$
 
 $S=\left\{ \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_{ n },y_{ n } \right)  \right\}$$
 
