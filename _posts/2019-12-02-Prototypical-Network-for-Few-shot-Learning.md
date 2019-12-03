@@ -6,19 +6,17 @@ use_math: true
 
 
 ### Notation
-$S=\lbrace x+y\rbrace$
 
 $S=\lbrace \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_{ n },y_{ n } \right) \rbrace$
 
-$x_i\in R^ : D-dimension feature vector 
+$x_i \in R^M$ : D-dimension feature vector 
 
 $y_i \in \lbrace1,...,K \rbrace$ : corresponding label
 
-$$S_k$$: class label이 K인 example set
+$S_k$: class label이 K인 example set
 
 
 ### Model 
-
 
 Prototypical Network는 M 차원의 representation $c$를 계산한다. 
 embedding function $f_\phi:R^D \rightarrow R^M$ 을 통해 각 class별로 그 class를 대표하는 representation (or prototype) 을 학습한다. 여기서 학습되는 값은 $\phi$이다. 
