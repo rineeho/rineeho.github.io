@@ -7,10 +7,9 @@ use_math: true
 
 ### Notation
 
+$S=\left\{ \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_n, y_n \right)  \right\}$
 
-$S=\{(x_1,y_1),...,(X_N, y_n)\}$
-
-$$x_i\in R^D$$ : D-dimension feature vector 
+$x_i\in R^ : D-dimension feature vector 
 
 $$y_i \in {1,...,K}$$ : corresponding label
 
