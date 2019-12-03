@@ -30,10 +30,5 @@ class $C$에 대한 prototype은 다음과 같이 표현된다.
 $$c_{k}=\frac{1}{\left|S_{k}\right|}\sum_{(x_{i},y_{i}) \in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }$$
 
 
-\begin{align}
-\\c_{ k }=\frac { 1 }{ \left| S_{ k } \right|  } \sum _{ (x_{ i },y_{ i })\in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }
-\end{align}
+$$p_{ \phi  }(y=k|x)\quad =\quad \frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }$$
 
-\begin{equation}
-p_{ \phi  }(y=k|x)\quad =\quad \frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }
-\end{equation}
