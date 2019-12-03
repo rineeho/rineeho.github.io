@@ -30,7 +30,7 @@ $$c_{k}=\frac{1}{\left|S_{k}\right|}\sum_{(x_{i},y_{i}) \in S_{ k } }^{  }{ { f 
 $$p_{ \phi  }(y=k|x)\quad =\quad \frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }$$
 
 
-class $K$에 대해 $J(\phi)=\log { { p }_{ \phi  } ( y=k )  $를 최소화 하는 방향으로 학습이 진행된다. 
+class $K$에 대해 $J(\phi)=\log { p_ \phi} ( y=k|x )  $를 최소화 하는 방향으로 학습이 진행된다. 
 
 세부 알고리즘은 다음과 같다. 
 
