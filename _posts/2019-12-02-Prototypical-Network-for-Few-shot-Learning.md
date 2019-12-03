@@ -6,8 +6,9 @@ use_math: true
 
 
 ### Notation
+$S=\left\{  \right\}$
 
-$$S=\left\{ \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_{ n },y_{ n } \right)  \right\}$$
+$S=\left\{ \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_{ n },y_{ n } \right)  \right\}$$
 
 $x_i\in R^ : D-dimension feature vector 
 
