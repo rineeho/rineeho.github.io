@@ -11,7 +11,7 @@ $S=\left\{ \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_n, y_n \right)  \right\}
 
 $x_i\in R^ : D-dimension feature vector 
 
-$$y_i \in {1,...,K}$$ : corresponding label
+$y_i \in \left\{1,...,K \right\}$ : corresponding label
 
 $$S_k$$: class label이 K인 example set
 
