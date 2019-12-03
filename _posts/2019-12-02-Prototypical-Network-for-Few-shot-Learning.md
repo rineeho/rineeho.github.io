@@ -7,9 +7,9 @@ use_math: true
 
 ### Notation
 
-${}$
+
 $$
-S={{(x_1,y_1),...,(X_N, y_n)}}
+S={(x_1,y_1),...,(X_N, y_n)}
 $$
 
 $$x_i\in R^D$$ : D-dimension feature vector 
