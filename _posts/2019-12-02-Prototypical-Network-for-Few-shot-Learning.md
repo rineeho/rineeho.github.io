@@ -34,7 +34,7 @@ class $K$에 대해 $J(\phi)=\log{p_\phi}(y=k\|x)$를 최소화 하는 방향으
 
 세부 알고리즘은 다음과 같다. 
 
-![algorithm](https://github.com/rineeho/rineeho.github.io/blob/master/_assets/images/algorithm.png?raw=true)
+![algorithm](https://github.com/rineeho/rineeho.github.io/blob/master/_assets/images/algorithm.png?raw=true){:.aligncenter}
 
 
 
