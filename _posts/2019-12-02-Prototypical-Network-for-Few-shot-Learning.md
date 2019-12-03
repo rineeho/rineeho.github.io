@@ -34,3 +34,4 @@ class $K$에 대해 $J(\phi )=-log{ p_\phi }(y=k|x)$를 최소화 하는 방향�
 
 세부 알고리즘은 다음과 같다. 
 
+![algorithm]_assets/images/algorithm.jpg
