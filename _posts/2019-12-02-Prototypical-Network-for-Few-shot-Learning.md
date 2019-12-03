@@ -8,11 +8,11 @@ use_math: true
 ### Notation
 $S=\lbrace x+y\rbrace$
 
-$S=\left\{ \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_{ n },y_{ n } \right)  \right\}$$
+$S=\lbrace \left( x_{ 1 },y_{ 1 } \right) ,...,\left( x_{ n },y_{ n } \right) \rbrace$
 
 $x_i\in R^ : D-dimension feature vector 
 
-$y_i \in \left\{1,...,K \right\}$ : corresponding label
+$y_i \in \lbrace1,...,K \rbrace$ : corresponding label
 
 $$S_k$$: class label이 K인 example set
 
@@ -28,7 +28,6 @@ class $C$에 대한 prototype은 다음과 같이 표현된다.
 
 
 $$c_{k}=\frac{1}{\left|S_{k}\right|}\sum_{(x_{i},y_{i}) \in S_{ k } }^{  }{ { f }_{ \phi  }({ x }_{ i }) }$$
-
 
 $$p_{ \phi  }(y=k|x)\quad =\quad \frac { exp(−d(f_{ \phi  }(x),c_{ k })) }{ \sum _{ k' }{ exp(−d(f_{ \phi  }(x),c_{ k }')) }  }$$
 
